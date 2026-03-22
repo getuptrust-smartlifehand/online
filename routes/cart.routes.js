@@ -42,7 +42,7 @@ router.post('/', auth, async (req, res) => {
 });
 
 /* ==========================
-   GET MY CART (JWT USER)
+   GET MY CART (JWT USER) added
    ========================== */
 router.get('/', auth, async (req, res) => {
   const userId = req.user.id;
